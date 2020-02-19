@@ -3,4 +3,5 @@
   (lib (name acheron_Connectors)(type KiCad)(uri ${KIPRJMOD}/../AcheronLibrary/footprints/acheron_Connectors.pretty)(options "")(descr ""))
   (lib (name acheron_Hardware)(type KiCad)(uri ${KIPRJMOD}/../AcheronLibrary/footprints/acheron_Hardware.pretty)(options "")(descr ""))
   (lib (name acheron_MX)(type KiCad)(uri ${KIPRJMOD}/../AcheronLibrary/footprints/acheron_MX.pretty)(options "")(descr ""))
+  (lib (name acheron_MountingHoles)(type KiCad)(uri /home/alvaro/kicad/muente1800/AcheronLibrary/footprints/acheron_MountingHoles.pretty)(options "")(descr ""))
 )
