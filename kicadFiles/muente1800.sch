@@ -2318,4 +2318,93 @@ Wire Wire Line
 	11350 1750 11350 3750
 Wire Wire Line
 	10950 2200 12450 2200
+$Comp
+L MCU_ST_STM32F0:STM32F072CBTx U1
+U 1 1 5E4DE4F8
+P 2050 8500
+F 0 "U1" H 2200 9450 50  0000 C CNN
+F 1 "STM32F072CBTx" H 2200 9350 50  0000 C CNN
+F 2 "acheron_Components:LQFP-48_7x7mm_P0.5mm" H 1450 7100 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf" H 2050 8500 50  0001 C CNN
+	1    2050 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L acheronSymbols:TYPE-C-31-M12_13 J1
+U 1 1 5E4E15BE
+P 4250 8600
+F 0 "J1" H 4357 10017 50  0000 C CNN
+F 1 "TYPE-C-31-M12_13" H 4357 9926 50  0000 C CNN
+F 2 "acheron_Connectors:TYPE-C-31-M-12" V 3750 8650 50  0001 C CNN
+F 3 "" H 4450 8650 50  0001 C CNN
+	1    4250 8600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 10000 2050 10000
+Connection ~ 1850 10000
+Wire Wire Line
+	1850 10000 1650 10000
+Connection ~ 1950 10000
+Wire Wire Line
+	1950 10000 1850 10000
+Connection ~ 2050 10000
+Wire Wire Line
+	2050 10000 1950 10000
+$Comp
+L power:GND #PWR?
+U 1 1 5E4E5689
+P 1650 10000
+F 0 "#PWR?" H 1650 9750 50  0001 C CNN
+F 1 "GND" H 1655 9827 50  0000 C CNN
+F 2 "" H 1650 10000 50  0001 C CNN
+F 3 "" H 1650 10000 50  0001 C CNN
+	1    1650 10000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 7000 1950 7000
+Connection ~ 1950 7000
+Wire Wire Line
+	1950 7000 2050 7000
+Connection ~ 2050 7000
+Wire Wire Line
+	2050 7000 2150 7000
+Connection ~ 2150 7000
+Wire Wire Line
+	2150 7000 2250 7000
+Connection ~ 2250 7000
+Wire Wire Line
+	2250 7000 2350 7000
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E4EE684
+P 2350 7000
+F 0 "#PWR?" H 2350 6850 50  0001 C CNN
+F 1 "+3V3" H 2365 7173 50  0000 C CNN
+F 2 "" H 2350 7000 50  0001 C CNN
+F 3 "" H 2350 7000 50  0001 C CNN
+	1    2350 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E4F7A34
+P 4250 10300
+F 0 "#PWR?" H 4250 10050 50  0001 C CNN
+F 1 "GND" H 4255 10127 50  0000 C CNN
+F 2 "" H 4250 10300 50  0001 C CNN
+F 3 "" H 4250 10300 50  0001 C CNN
+	1    4250 10300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 10050 4250 10200
+Wire Wire Line
+	4250 10200 4150 10200
+Wire Wire Line
+	4150 10200 4150 10050
+Connection ~ 4250 10200
+Wire Wire Line
+	4250 10200 4250 10300
 $EndSCHEMATC
