@@ -309,7 +309,7 @@
     (add_net row4)
   )
 
-  (module 60_Outline-Modded (layer F.Cu) (tedit 5E4D5A3C) (tstamp 5E4D589B)
+  (module 60_Outline-Modded (layer F.Cu) (tedit 5E4D5E2B) (tstamp 5E4D589B)
     (at 176.2125 38.1)
     (fp_text reference REF** (at -181.865 50.5) (layer Edge.Cuts) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -317,7 +317,7 @@
     (fp_text value 60_Outline (at -181.865 49) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_line (start -183.365 47.3) (end 183.365 47.3) (layer Edge.Cuts) (width 0.3))
+    (fp_line (start -183.365 47.3) (end 64.285 47.3) (layer Edge.Cuts) (width 0.3))
     (fp_line (start 183.365 -47.3) (end -161.165 -47.3) (layer Edge.Cuts) (width 0.3))
     (fp_arc (start -183.365 -45.3) (end -185.365 -45.3) (angle 90) (layer Edge.Cuts) (width 0.3))
     (fp_arc (start -183.365 45.3) (end -183.365 47.3) (angle 90) (layer Edge.Cuts) (width 0.3))
@@ -372,6 +372,12 @@
     (fp_arc (start -161.165 -47.8) (end -161.165 -47.3) (angle 90) (layer Edge.Cuts) (width 0.3))
     (fp_line (start -183.365 -47.3) (end -173.165 -47.3) (layer Edge.Cuts) (width 0.3))
     (fp_line (start -167.165 -48.9) (end -167.165 -45.75) (layer Dwgs.User) (width 0.15))
+    (fp_line (start 69.0475 52.0625) (end 122.1975 52.0625) (layer Edge.Cuts) (width 0.3))
+    (fp_arc (start 64.285 49.68125) (end 66.66625 49.68125) (angle -90) (layer Edge.Cuts) (width 0.3))
+    (fp_arc (start 69.0475 49.68125) (end 66.66625 49.68125) (angle -90) (layer Edge.Cuts) (width 0.3))
+    (fp_line (start 126.96 47.3) (end 183.365 47.3) (layer Edge.Cuts) (width 0.3))
+    (fp_arc (start 126.96 49.68125) (end 126.96 47.3) (angle -90) (layer Edge.Cuts) (width 0.3))
+    (fp_arc (start 122.1975 49.68125) (end 122.1975 52.0625) (angle -90) (layer Edge.Cuts) (width 0.3))
     (pad 1 thru_hole circle (at 179.726522 11.038478) (size 1 1) (drill 0.5) (layers *.Cu *.Mask))
     (pad 1 thru_hole circle (at 181.565 11.8) (size 1 1) (drill 0.5) (layers *.Cu *.Mask))
     (pad 1 thru_hole circle (at 183.607035 11.8) (size 1 1) (drill 0.5) (layers *.Cu *.Mask))
