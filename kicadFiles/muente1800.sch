@@ -2937,4 +2937,50 @@ Text GLabel 15000 7950 2    50   Input ~ 0
 SWDIO
 NoConn ~ 15000 8050
 NoConn ~ 15000 8150
+Text GLabel 1350 9400 0    50   Input ~ 0
+col0
+Text GLabel 1350 8500 0    50   Input ~ 0
+col3
+Text GLabel 2650 9000 2    50   Input ~ 0
+col5
+Text GLabel 2650 8800 2    50   Input ~ 0
+col7
+Text GLabel 2650 8600 2    50   Input ~ 0
+col9
+Text GLabel 1350 8100 0    50   Input ~ 0
+col15
+Text GLabel 1350 7900 0    50   Input ~ 0
+col17
+Text GLabel 1350 8400 0    50   Input ~ 0
+col2
+Text GLabel 2650 8900 2    50   Input ~ 0
+col6
+Text GLabel 2650 8700 2    50   Input ~ 0
+col8
+Text GLabel 2650 8500 2    50   Input ~ 0
+col10
+Text GLabel 1350 8000 0    50   Input ~ 0
+col16
+Text GLabel 2650 8300 2    50   Input ~ 0
+col12
+Text GLabel 2650 8400 2    50   Input ~ 0
+col11
+Text GLabel 1350 7600 0    50   Input ~ 0
+col14
+Text GLabel 1350 7700 0    50   Input ~ 0
+col13
+Text GLabel 1350 8300 0    50   Input ~ 0
+col1
+Text GLabel 1350 9300 0    50   Input ~ 0
+col4
+Text GLabel 2650 9300 2    50   Input ~ 0
+row0
+Text GLabel 2650 9200 2    50   Input ~ 0
+row1
+Text GLabel 1350 9800 0    50   Input ~ 0
+row3
+Text GLabel 2650 9100 2    50   Input ~ 0
+row4
+Text GLabel 1350 9700 0    50   Input ~ 0
+row2
 $EndSCHEMATC
